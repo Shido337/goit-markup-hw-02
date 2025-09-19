@@ -9,8 +9,6 @@ body {
 
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -24,7 +22,7 @@ h1 {
 h2 {
     font-size: 36px;
     line-height: 1.11;
-    color: #434455;
+    color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -34,7 +32,7 @@ h2 {
 h3 {
     font-size: 20px;
     line-height: 1.2;
-    color: #434455;
+    color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
     margin: 10px 0 5px 0;
@@ -50,7 +48,6 @@ p {
 
 header {
     background-color: #ffffff;
-    padding: 20px 40px;
 }
 
 .logo-header,
@@ -104,7 +101,6 @@ header {
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 40px 0;
 }
 
 .main-button {
@@ -116,7 +112,7 @@ header {
     background-color: #4d5ae5;
     border: none;
     cursor: pointer;
-    padding: 10px 20px;
+    letter-spacing: 0.04em
 }
 
 .main-button:hover,
@@ -124,14 +120,8 @@ header {
     background-color: #404bbf;
 }
 
-.qualities-section,
-.portfolio-section,
-.team-section {
-    padding: 40px 0;
-}
-
-.team-section {
-    background-color: #f4f4fd;
+.team-list {
+    background-color: #FFFFFF
 }
 
 .section-title {
@@ -152,18 +142,11 @@ header {
 .portfolio-text {
     margin: 0 0 5px 0;
 }
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
+ 
 footer {
     background-color: #2e2f42;
     color: #f4f4fd;
     text-align: left;
-    padding: 20px 40px;
 }
 
 .footer-text {
