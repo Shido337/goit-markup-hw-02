@@ -130,7 +130,7 @@ a:hover, a:focus {
 footer {
     background-color: var(--navy-blue);
     color: var(--white);
-    text-align: center;
+    text-align: left;
 }
 
 .footer-text {
