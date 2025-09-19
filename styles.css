@@ -1,0 +1,140 @@
+:root {
+    
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+body {
+    height: 100%;
+        background: var(--white);
+        color: var(--slate);
+        font-family: var(--font-family);
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--white);
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--slate);
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--slate);
+}
+
+header {
+    background-color: var(--white);
+    padding: 20px 16px;
+}
+
+.nav-list a {
+    color: var(--slate);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--iris);
+}
+
+.logo-studio {
+    color: var(--navy-blue);
+}
+
+.footer-logo .logo-studio {
+    color: var(--cloud);
+}
+
+.header-contacts ul {
+    list-style: none;
+}
+
+.header-contacts a {
+    color: var(--slate);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover, a:focus {
+    color: var(--ocean);
+}
+
+.title {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    text-align: center;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--iris);
+   
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--ocean);
+}
+
+.qualities {
+    background-color: var(--white);
+}
+
+.team {
+    background-color: var(--cloud);
+}
+
+.portfolio {
+    background-color: var(--white);
+}
+
+footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    text-align: center;
+}
+
+.footer-text {
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.5;
+}
