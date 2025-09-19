@@ -76,7 +76,7 @@ header {
     color: var(--navy-blue);
 }
 
-.footer-logo .logo-studio {
+.logo .footer-logo-studio {
     color: var(--cloud);
 }
 
@@ -93,14 +93,15 @@ header {
 a:hover, a:focus {
     color: var(--ocean);
 }
-
-.title {
+.main {
     background-color: var(--navy-blue);
+}
+.main .title {
     color: var(--white);
     text-align: center;
 }
 
-.button {
+.main .button {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
