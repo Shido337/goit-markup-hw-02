@@ -4,7 +4,6 @@ body {
     background-color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
 }
 
 ul {
@@ -16,26 +15,24 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
-    margin: 0 0 20px 0;
+    letter-spacing: 0.02em;
 }
 
 h2 {
     font-size: 36px;
     line-height: 1.11;
-    color: #2e2f42;
+    color: #2E2F42;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 20px;
     line-height: 1.2;
-    color: #2e2f42;
+    color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
-    margin: 10px 0 5px 0;
 }
 
 p {
@@ -43,7 +40,6 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
 }
 
 header {
@@ -75,7 +71,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2E2F42;
     text-decoration: none;
 }
 
@@ -84,7 +80,7 @@ header {
     color: #404bbf;
 }
 
-.header-address a {
+.header-address li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -131,16 +127,13 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #434455;
-    margin-bottom: 30px;
 }
 
-.team-name,
-.team-role,
-.quality-title,
-.quality-text,
-.portfolio-title,
-.portfolio-text {
-    margin: 0 0 5px 0;
+.team-section {
+    background-color: #f4f4fd;
+}
+.team-list li {
+    background-color: #FFFFFF;
 }
  
 footer {
@@ -153,5 +146,4 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 10px;
 }
